@@ -16,11 +16,11 @@
 <title>
   
   
-    Ruiming Cao
+   Jonathan Schwartz
   
 </title>
-<meta name="author" content="Ruiming Cao">
-<meta name="description" content="Ruiming's website. 
+<meta name="author" content="Jonathan Schwartz">
+<meta name="description" content="Jonathan's website. 
 ">
 
   <meta name="keywords" content="jekyll, jekyll-theme, academic-website, portfolio-website">
@@ -59,7 +59,7 @@
   <link rel="shortcut icon" href="/assets/img/icon.png?1a1f93f06290ca43d538bdc28263fbef">
 
 <link rel="stylesheet" href="/assets/css/main.css?d41d8cd98f00b204e9800998ecf8427e">
-<link rel="canonical" href="https://rmcao.net/">
+<link rel="canonical" href="https://jtschwar.net/">
 
 <!-- Dark Mode -->
 <script src="/assets/js/theme.js?9a0c749ec5240d9cda97bc72359a72c0"></script>
@@ -80,7 +80,15 @@
 
 
 
-  </head>
+  <style>
+  .navbar-brand .contact-icons a {
+    color: var(--global-text-color) !important;
+  }
+  .navbar-brand .contact-icons a:hover {
+    color: var(--global-theme-color) !important;
+  }
+</style>
+</head>
 
   <!-- Body -->
   <body class="fixed-top-nav ">
@@ -89,7 +97,14 @@
   <!-- Nav Bar -->
   <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top" role="navigation">
     <div class="container">
-      
+      <div class="navbar-brand">
+        <div class="contact-icons" style="font-size:1.65rem;line-height:1;color:var(--global-text-color);">
+  <a href="mailto:jtschwar@gmail.com" title="email"><i class="fa-solid fa-envelope"></i></a>
+  <a href="https://scholar.google.com/citations?user=O2bJ1RwAAAAJ&hl=en" title="Google Scholar" rel="external nofollow noopener" target="_blank"><i class="ai ai-google-scholar"></i></a>
+  <a href="https://github.com/jtschwar" title="GitHub" rel="external nofollow noopener" target="_blank"><i class="fa-brands fa-github"></i></a>
+  <a href="https://www.linkedin.com/in/jtschwar/" title="LinkedIn" rel="external nofollow noopener" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+      </div>
       <!-- Navbar Toggle -->
       <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="sr-only">Toggle navigation</span>
@@ -150,18 +165,6 @@
               
             
           
-            
-              
-                
-                <li class="nav-item ">
-                  
-                  <a class="nav-link" href="/teaching/">teaching
-                    
-                  </a>
-                </li>
-              
-            
-          
           
             <!-- Search -->
             <li class="nav-item">
@@ -202,11 +205,11 @@
   <header class="post-header">
     <h1 class="post-title">
       
-        <span class="font-weight-bold">Ruiming</span> 
-        Cao
+        <span class="font-weight-bold">Jonathan</span> 
+        Schwartz
       
     </h1>
-    <p class="desc">Research Scientist at <a href="https://www.czimaginginstitute.org" rel="external nofollow noopener" target="_blank">Chan Zuckerberg Imaging Institute</a>.</p>
+    <p class="desc">Sr. AI/ML Research Scientist at <a href="https://www.biohub.org" rel="external nofollow noopener" target="_blank">Biohub</a>.</p>
   </header>
 
   <article>
@@ -239,27 +242,28 @@
         
         
       </div>
-    
+
 
     <div class="clearfix">
-<p>I obtained my Ph.D. from UC Berkeley, where I was advised by <a href="http://www.laurawaller.com" rel="external nofollow noopener" target="_blank">Prof. Laura Waller</a> and supported, in part, by Siebel Scholarship. I was also affiliated with the <a href="https://bair.berkeley.edu/index.html" rel="external nofollow noopener" target="_blank">Berkeley Artificial Intelligence Research (BAIR)</a>. I was a research intern in Google Research in 2021 and an optical scientist intern in Meta Reality Labs Research in 2022.</p>
 
-<p>I received M.S. in Computer Science from UCLA in 2019, where I was advised by <a href="http://kyungs.bol.ucla.edu/Site/Home.html" rel="external nofollow noopener" target="_blank">Prof. Kyung Hyun Sung</a> and <a href="http://web.cs.ucla.edu/~fab/" rel="external nofollow noopener" target="_blank">Prof. Fabien Scalzo</a>. I received B.S. in Computer Science and Applied Mathematics from UCLA where I worked with <a href="http://www.stat.ucla.edu/~sczhu/" rel="external nofollow noopener" target="_blank">Prof. Song-Chun Zhu</a>.</p>
+<p>I earned my Ph.D. in Material Sciences at the University of Michigan, Ann Arbor advised by <a href="https://hovdenlab.com" rel="external nofollow noopener" target="_blank">Prof. Robert Hovden</a> My Ph.D. research primarily focused on material discovery through image processing, data analysis, and 3D reconstruction of nano- and atomic-scale images collected by electron microscopes. Throughout my Ph.D., I tackled inverse problems in electron microscopy by leveraging concepts from signal processing and deep learning. My current work emphasizes the computational aspects of the field, including algorithm development and optimization, large-scale implementation via cluster computing, and scientific software development.</p>
 
 <h3 id="research">Research</h3>
 
-<p>My research focuses on motion modeling and dynamic imaging. I jointly develop the optical system hardware and the computational methods to enhance our capabilities for observing and analyzing fast and complex dynamics. I work on various image modalities, including digital photography, optical microscopy, medical imaging, and most recently cryo-ET.</p>
+<p>My research focuses on the intersection of deep learning, computer vision, and scientific imaging. I develop supervised learning and interactive human-in-the-loop workflows, often leveraging foundation models for both 2D and 3D data. These methodologies originated in my materials science work and are now being applied to biological imaging—particularly in cryo-electron microscopy (Cryo-EM) and cryo-electron tomography (Cryo-ET) at the Biohub.</p>
 
-<p><strong><em>Optical sensing methods for dynamic imaging.</em></strong> 
-I develop optical sensing hardware by enhancing signal encoding through dynamic sensors and novel contrast mechanisms, specifically designed for imaging moving samples [<a href="https://ieeexplore.ieee.org/abstract/document/9887701" rel="external nofollow noopener" target="_blank">1</a>, <a href="https://www.spiedigitallibrary.org/conference-proceedings-of-spie/12390/1239002/Speckle-flow-structured-illumination-microscopy-for-dynamic-super-resolution-imaging/10.1117/12.2648072.full" rel="external nofollow noopener" target="_blank">2</a>]. My work optimizes imaging hardware designs to improve signal quality and reduce acquisition time [<a href="https://opg.optica.org/boe/fulltext.cfm?uri=boe-13-3-1671&amp;id=469840" rel="external nofollow noopener" target="_blank">3</a>, <a href="https://www.spiedigitallibrary.org/conference-proceedings-of-spie/PC12996/PC129960D/Fast-quantitative-phase-imaging-with-an-LED-array-microscope-using/10.1117/12.3022419.full" rel="external nofollow noopener" target="_blank">4</a>]. Additionally, I have pioneered theoretical noise analysis for dynamic vision sensors, leveraging their unique properties for new applications [<a href="https://arxiv.org/abs/2404.01298" rel="external nofollow noopener" target="_blank">5</a>].</p>
+<p><strong><em>Inverse problem optimization for computational imaging.</em></strong> 
+  During my PhD, I developed computational methods for solving ill-posed inverse problems in electron microscopy, where the goal is to reconstruct high-fidelity 3D structures from incomplete and noisy measurements. My work focused on designing optimization algorithms that leverage complementary information across multiple imaging modalities and measurement geometries.</p>  
 
-<p>
-  <img src="/assets/img/encoding_methods.png" alt="Optical sensing methods" style="width:90%;">
-</p>
+<p><strong><em>Deep learning for 3D annotation.</em></strong>
+  I develop data-efficient learning strategies for large volumetric cryo-ET datasets, where dense 3D supervision is impractical. My work reframes annotation as sparse interaction: experts label a small number of 2D slices, and foundation models propagate those signals consistently throughout 3D volumes. In parallel, I design supervised 3D convolutional networks for protein localization and object detection, addressing the complementary problem of identifying discrete molecular coordinates in noisy cellular environments. </p>
+  
+<p><strong><em>Interactive scientific software.</em></strong>
+  I translate machine learning and reconstruction methods into scalable, reproducible systems for structural biology. I build end-to-end computational infrastructure that runs reliably on HPC clusters while remaining accessible through interactive, web-based dashboards. By integrating large-scale computation with real-time visualization and workflow monitoring, I shorten the feedback loop between model development, evaluation, and biological discovery..</p>
 
-<p><strong><em>Parsing dynamics and inverse problem optimization with machine learning.</em></strong> 
-I work on inverse problem optimization algorithms that parse spatiotemporal correlations from unlabeled data, overcoming the limitations of frame-by-frame processing [<a href="https://www.nature.com/articles/s41592-024-02417-0" rel="external nofollow noopener" target="_blank">6</a>]. The neural space-time model significantly enhances temporal resolution, image quality [<a href="https://opg.optica.org/oe/fulltext.cfm?uri=oe-32-20-35725&amp;id=559958" rel="external nofollow noopener" target="_blank">7</a>], and multi-modal alignment [<a href="https://arxiv.org/abs/2411.02672" rel="external nofollow noopener" target="_blank">8</a>] in image reconstruction . Furthermore, I am developing a large vision model for cryo-ET data processing tasks.</p>
-</div>
+<!-- <p>
+  <img src="/assets/img/encoding_methods.png" alt="Data fusion methods" style="width:90%;">
+</p> -->
 
     <!-- News -->
     
@@ -268,990 +272,336 @@ I work on inverse problem optimization algorithms that parse spatiotemporal corr
     
 
     <!-- Selected papers -->
-    
+
       <h2>
-        <a href="/publications/" style="color: inherit">selected publications</a>
+        <a href="/publications/" style="color: inherit">Selected Publications</a>
       </h2>
       <div class="publications">
   <ol class="bibliography">
 <li>
 <div class="row">
-  
-    <div class="col col-sm-2 abbr">
-          <abbr class="badge rounded w-100" style="background-color:#00FCE9">
-            
-              <div>Medical Imaging</div>
-            
-          </abbr>
-        
-      
-      
-        
-          
-          
+  <div class="col col-sm-2 abbr">
+    <abbr class="badge rounded w-100" style="background-color:#2DC653">
+      <div>Cryo-ET</div>
+    </abbr>
+    <figure>
+      <picture>
+        <img src="/assets/img/publications/thumbs/ml_challenge.png" class="preview z-depth-1 rounded" width="100%" height="auto" alt="ml_challenge.png" data-zoom-src="/assets/img/publications/ml_challenge.png" data-zoomable loading="eager">
+      </picture>
+    </figure>
 
-<figure>
-  <picture>
-    <!-- Auto scaling with imagemagick -->
-    <!--
-      See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
-      https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
-    -->
-    
-      <source class="responsive-img-srcset" srcset="/assets/img/publication_preview/tmi_2019-480.webp 480w,/assets/img/publication_preview/tmi_2019-800.webp 800w,/assets/img/publication_preview/tmi_2019-1400.webp 1400w," sizes="200px" type="image/webp">
-    
-    <img src="/assets/img/publication_preview/tmi_2019.png" class="preview z-depth-1 rounded" width="100%" height="auto" alt="tmi_2019.png" data-zoomable loading="eager" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
-  </source></picture>
+  </div>
 
-  
-</figure>
-
-        
-      
-    </div>
-  
-
-  <!-- Entry bib key -->
-  <div id="cao2019joint" class="col-sm-8">
-    <!-- Title -->
-    <div class="title">Joint prostate cancer detection and gleason score prediction in mp-MRI via FocalNet</div>
-    <!-- Author -->
+  <div id="peck2025phantom" class="col-sm-8">
+    <div class="title">A Realistic Phantom Dataset for Benchmarking Cryo-ET Data Annotation</div>
     <div class="author">
-      
-
-      
-      <em>Ruiming
-            Cao</em>, Amirhossein Mohammadian
-            Bajgiran, Sohrab Afshari
-            Mirak, and
-        <span class="more-authors" title="click to view 5 more authors" onclick="
-              var element = $(this);
-              element.attr('title', '');
-              var more_authors_text = element.text() == '5 more authors' ? 'Sepideh Shakeri, Xinran Zhong, Dieter Enzmann, Steven Raman, Kyunghyun Sung' : '5 more authors';
-              var cursorPosition = 0;
-              var textAdder = setInterval(function(){
-                element.html(more_authors_text.substring(0, cursorPosition + 1));
-                if (++cursorPosition == more_authors_text.length){
-                  clearInterval(textAdder);
-                }
-            }, '10');
-          ">5 more authors</span>
-      
-      
-    </div>
-
-    <!-- Journal/Book title and date -->
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    <div class="periodical">
-      <em>IEEE transactions on medical imaging</em>,  2019
+      Ariana Peck, Yue Yu, <em>Jonathan Schwartz</em>, and
+      <span class="more-authors" title="click to view 17 more authors" onclick="
+            var element = $(this);
+            element.attr('title', '');
+            var more_authors_text = element.text() == '17 more authors' ? 'Anchi Cheng, Utz Heinrich Ermel, Joshua Hutchings, Saugat Kandel, Dari Kimanius, Elizabeth A. Montabana, Daniel Serwas, Hannah Siems, Feng Wang, Zhuowen Zhao, Shawn Zheng, Matthias Haury, David A. Agard, Clinton S. Potter, Bridget Carragher, Kyle Harrington, Mohammadreza Paraan' : '17 more authors';
+            var cursorPosition = 0;
+            var textAdder = setInterval(function(){
+              element.html(more_authors_text.substring(0, cursorPosition + 1));
+              if (++cursorPosition == more_authors_text.length){
+                clearInterval(textAdder);
+              }
+          }, '10');
+        ">17 more authors</span>
     </div>
     <div class="periodical">
-      
+      <em>Nature Methods</em>, 2025
     </div>
-
-    <!-- Links/Buttons -->
+    <div class="periodical"></div>
     <div class="links">
-      
-      
-        <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
-      
-      
-      
-        <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
-      
-      
-      
-        
-          <a href="https://ieeexplore.ieee.org/abstract/document/8653866" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">PDF</a>
-        
-      
-      
-      
-      
-      
-      
-      
-      
+      <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+      <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+      <a href="https://doi.org/10.1038/s41592-025-02800-5" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">PDF</a>
+      <a href="https://www.kaggle.com/c/czii-cryo-et-object-identification" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">Code</a>
     </div>
-    
-      
-      
+    <div class="badges">
+      <span class="altmetric-embed" data-badge-type="2" data-badge-popover="right" data-doi="10.1038/s41592-025-02800-5"></span>
+    </div>
+    <!-- Hidden abstract block -->
+    <div class="abstract hidden">
+      <p>Cryo-electron tomography (cryo-ET) is a powerful technique for imaging molecular complexes in their native cellular environments. However, identifying the vast majority of molecular species in cellular tomograms remains prohibitively difficult. Machine learning (ML) methods provide an opportunity to automate the annotation process, but algorithm development has been hindered by the lack of large, standardized datasets. Here we present an experimental phantom dataset with comprehensive ground-truth annotations for six molecular species to spur new algorithm development and benchmark existing tools. This annotated dataset is available on the CryoET Data Portal with infrastructure to streamline access for methods developers across fields.</p>
+    </div>
 
-      
-      
-
-      
-      
-      
-        <div class="badges">
-          
-            <span class="altmetric-embed" data-badge-type="2" data-badge-popover="right" data-doi="10.1109/TMI.2019.2901928"></span>
-          
-          
-          
-        </div>
-      
-    
-
-    
-
-    
-      <!-- Hidden abstract block -->
-      <div class="abstract hidden">
-        <p>Multi-parametric MRI (mp-MRI) is considered the best non-invasive imaging modality for diagnosing prostate cancer (PCa). However, mp-MRI for PCa diagnosis is currently limited by the qualitative or semi-quantitative interpretation criteria, leading to inter-reader variability and a suboptimal ability to assess lesion aggressiveness. Convolutional neural networks (CNNs) are a powerful method to automatically learn the discriminative features for various tasks, including cancer detection. We propose a novel multi-class CNN, FocalNet, to jointly detect PCa lesions and predict their aggressiveness using Gleason score (GS). FocalNet characterizes lesion aggressiveness and fully utilizes distinctive knowledge from mp-MRI. We collected a prostate mp-MRI dataset from 417 patients who underwent 3T mp-MRI exams prior to robotic-assisted laparoscopic prostatectomy. FocalNet was trained and evaluated in this large study cohort with fivefold cross validation. In the free-response receiver operating characteristics (FROC) analysis for lesion detection, FocalNet achieved 89.7% and 87.9% sensitivity for index lesions and clinically significant lesions at one false positive per patient, respectively. For the GS classification, evaluated by the receiver operating characteristics (ROC) analysis, FocalNet received the area under the curve of 0.81 and 0.79 for the classifications of clinically significant PCa (GS ≥ 3 + 4) and PCa with GS ≥ 4 + 3, respectively. With the comparison to the prospective performance of radiologists using the current diagnostic guideline, FocalNet demonstrated comparable detection sensitivity for index lesions and clinically significant lesions, only 3.4% and 1.5% lower than highly experienced radiologists without statistical significance.</p>
-      </div>
-    
-
-    
-      <!-- Hidden bibtex block -->
-      <div class="bibtex hidden">
-        <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">cao2019joint</span><span class="p">,</span>
-  <span class="na">title</span> <span class="p">=</span> <span class="s">{Joint prostate cancer detection and gleason score prediction in mp-MRI via FocalNet}</span><span class="p">,</span>
-  <span class="na">author</span> <span class="p">=</span> <span class="s">{Cao, Ruiming and Bajgiran, Amirhossein Mohammadian and Mirak, Sohrab Afshari and Shakeri, Sepideh and Zhong, Xinran and Enzmann, Dieter and Raman, Steven and Sung, Kyunghyun}</span><span class="p">,</span>
-  <span class="na">journal</span> <span class="p">=</span> <span class="s">{IEEE transactions on medical imaging}</span><span class="p">,</span>
-  <span class="na">volume</span> <span class="p">=</span> <span class="s">{38}</span><span class="p">,</span>
-  <span class="na">number</span> <span class="p">=</span> <span class="s">{11}</span><span class="p">,</span>
-  <span class="na">pages</span> <span class="p">=</span> <span class="s">{2496--2506}</span><span class="p">,</span>
-  <span class="na">year</span> <span class="p">=</span> <span class="s">{2019}</span><span class="p">,</span>
-  <span class="na">publisher</span> <span class="p">=</span> <span class="s">{IEEE}</span><span class="p">,</span>
-  <span class="na">doi</span> <span class="p">=</span> <span class="s">{10.1109/TMI.2019.2901928}</span><span class="p">,</span>
-<span class="p">}</span></code></pre></figure>
-      </div>
-    
-
-    
+    <div class="bibtex hidden">
+      <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex">@article{peck2025phantom,
+  title = {A Realistic Phantom Dataset for Benchmarking Cryo-ET Data Annotation},
+  author = {Peck, Ariana and Yu, Yue and Schwartz, Jonathan and Cheng, Anchi and Ermel, Utz Heinrich and Hutchings, Joshua and Kandel, Saugat and Kimanius, Dari and Montabana, Elizabeth A. and Serwas, Daniel and Siems, Hannah and Wang, Feng and Zhao, Zhuowen and Zheng, Shawn and Haury, Matthias and Agard, David A. and Potter, Clinton S. and Carragher, Bridget and Harrington, Kyle and Paraan, Mohammadreza},
+  journal = {Nature Methods},
+  volume = {22},
+  number = {9},
+  pages = {1819--1823},
+  year = {2025},
+  doi = {10.1038/s41592-025-02800-5},
+}</code></pre></figure>
+    </div>
   </div>
 </div>
 </li>
 <li>
 <div class="row">
-  
-    <div class="col col-sm-2 abbr">
-          <abbr class="badge rounded w-100" style="background-color:#FCC439">
-            
-              <div>Novel Signal</div>
-            
-          </abbr>
-        
-      
-      
-        
-          
-          
+  <div class="col col-sm-2 abbr">
+    <abbr class="badge rounded w-100" style="background-color:#00B4D8">
+      <div>Inverse Problems</div>
+    </abbr>
 
-<figure>
-  <picture>
-    <!-- Auto scaling with imagemagick -->
-    <!--
-      See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
-      https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
-    -->
-    
-      <source class="responsive-img-srcset" srcset="/assets/img/publication_preview/motion_3ddpc_boe-480.webp 480w,/assets/img/publication_preview/motion_3ddpc_boe-800.webp 800w,/assets/img/publication_preview/motion_3ddpc_boe-1400.webp 1400w," sizes="200px" type="image/webp">
-    
-    <img src="/assets/img/publication_preview/motion_3ddpc_boe.gif" class="preview z-depth-1 rounded" width="100%" height="auto" alt="motion_3ddpc_boe.gif" data-zoomable loading="eager" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
-  </source></picture>
+    <figure>
+      <picture>
+        <img src="/assets/img/publications/thumbs/multimodal_tomo.png" class="preview z-depth-1 rounded" width="100%" height="auto" alt="multimodal_tomo.png" data-zoom-src="/assets/img/publications/multimodal_tomo.png" data-zoomable loading="eager">
+      </picture>
+    </figure>
+  </div>
 
-  
-</figure>
-
-        
-      
-    </div>
-  
-
-  <!-- Entry bib key -->
-  <div id="cao2022self" class="col-sm-8">
-    <!-- Title -->
-    <div class="title">Self-calibrated 3D differential phase contrast microscopy with optimized illumination</div>
-    <!-- Author -->
+  <div id="yang2024imaging3d" class="col-sm-8">
+    <div class="title">Imaging 3D Chemistry at 1 nm Resolution with Fused Multi-Modal Electron Tomography</div>
     <div class="author">
-      
-
-      
-      <em>Ruiming
-            Cao</em>, Michael
-            Kellman, David
-            Ren, and
-        <span class="more-authors" title="click to view 2 more authors" onclick="
-              var element = $(this);
-              element.attr('title', '');
-              var more_authors_text = element.text() == '2 more authors' ? 'Regina Eckert, Laura Waller' : '2 more authors';
-              var cursorPosition = 0;
-              var textAdder = setInterval(function(){
-                element.html(more_authors_text.substring(0, cursorPosition + 1));
-                if (++cursorPosition == more_authors_text.length){
-                  clearInterval(textAdder);
-                }
-            }, '10');
-          ">2 more authors</span>
-      
-      
-    </div>
-
-    <!-- Journal/Book title and date -->
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    <div class="periodical">
-      <em>Biomedical Optics Express</em>,  2022
+      <em>Jonathan Schwartz</em>, Zichao Wendy Di, Yi Jiang, and
+      <span class="more-authors" title="click to view 14 more authors" onclick="
+            var element = $(this);
+            element.attr('title', '');
+            var more_authors_text = element.text() == '14 more authors' ? 'Jason Manassa, Jacob Pietryga, Yiwen Qian, Min Gee Cho, Jonathan L. Rowell, Huihuo Zheng, Richard D. Robinson, Junsi Gu, Alexey Kirilin, Steve Rozeveld, Peter Ercius, Jeffrey A. Fessler, Mary Scott, Robert Hovden' : '14 more authors';
+            var cursorPosition = 0;
+            var textAdder = setInterval(function(){
+              element.html(more_authors_text.substring(0, cursorPosition + 1));
+              if (++cursorPosition == more_authors_text.length){
+                clearInterval(textAdder);
+              }
+          }, '10');
+        ">14 more authors</span>
     </div>
     <div class="periodical">
-      
+      <em>Nature Communications</em>, 2024
     </div>
-
-    <!-- Links/Buttons -->
+    <div class="periodical"></div>
     <div class="links">
-      
-      
-        <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
-      
-      
-      
-        <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
-      
-      
-      
-        
-          <a href="https://opg.optica.org/boe/fulltext.cfm?uri=boe-13-3-1671" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">PDF</a>
-        
-      
-      
-      
-      
-      
-        <a href="https://github.com/rmcao/self-calibration-for-defocus" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">Code</a>
-      
-      
-      
-      
+      <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+      <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+      <a href="https://doi.org/10.1038/s41467-024-47558-0" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">PDF</a>
+      <a href="https://github.com/jtschwar/tomo_TV" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">Code</a>
     </div>
-    
-      
-      
+    <div class="badges">
+      <span class="altmetric-embed" data-badge-type="2" data-badge-popover="right" data-doi="10.1038/s41467-024-47558-0"></span>
+    </div>
+    <!-- Hidden abstract block -->
+    <div class="abstract hidden">
+      <p>Measuring the three-dimensional (3D) distribution of chemistry in nanoscale matter is a longstanding challenge for metrological science. The inelastic scattering events required for 3D chemical imaging are too rare, requiring high beam exposure that destroys the specimen before an experiment is completed. Even larger doses are required to achieve high resolution. Thus, chemical mapping in 3D has been unachievable except at lower resolution with the most radiation-hard materials. Here, high-resolution 3D chemical imaging is achieved near or below one-nanometer resolution in an Au-Fe3O4 metamaterial within an organic ligand matrix, Co3O4-Mn3O4 core-shell nanocrystals, and ZnS-Cu0.64S0.36 nanomaterial using fused multi-modal electron tomography. Multi-modal data fusion enables high-resolution chemical tomography often with 99% less dose by linking information encoded within both elastic (HAADF) and inelastic (EDX/EELS) signals. We thus demonstrate that sub-nanometer 3D resolution of chemistry is measurable for a broad class of geometrically and compositionally complex materials.</p>
+    </div>
 
-      
-      
-
-      
-      
-      
-    
-
-    
-
-    
-      <!-- Hidden abstract block -->
-      <div class="abstract hidden">
-        <p>3D phase imaging recovers an object’s volumetric refractive index from intensity and/or holographic measurements. Partially coherent methods, such as illumination-based differential phase contrast (DPC), are particularly simple to implement in a commercial brightfield microscope. 3D DPC acquires images at multiple focus positions and with different illumination source patterns in order to reconstruct 3D refractive index. Here, we present a practical extension of the 3D DPC method that does not require a precise motion stage for scanning the focus and uses optimized illumination patterns for improved performance. The user scans the focus by hand, using the microscope’s focus knob, and the algorithm self-calibrates the axial position to solve for the 3D refractive index of the sample through a computational inverse problem. We further show that the illumination patterns can be optimized by an end-to-end learning procedure. Combining these two, we demonstrate improved 3D DPC with a commercial microscope whose only hardware modification is LED array illumination.</p>
-      </div>
-    
-
-    
-      <!-- Hidden bibtex block -->
-      <div class="bibtex hidden">
-        <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">cao2022self</span><span class="p">,</span>
-  <span class="na">title</span> <span class="p">=</span> <span class="s">{Self-calibrated 3D differential phase contrast microscopy with optimized illumination}</span><span class="p">,</span>
-  <span class="na">author</span> <span class="p">=</span> <span class="s">{Cao, Ruiming and Kellman, Michael and Ren, David and Eckert, Regina and Waller, Laura}</span><span class="p">,</span>
-  <span class="na">journal</span> <span class="p">=</span> <span class="s">{Biomedical Optics Express}</span><span class="p">,</span>
-  <span class="na">volume</span> <span class="p">=</span> <span class="s">{13}</span><span class="p">,</span>
-  <span class="na">number</span> <span class="p">=</span> <span class="s">{3}</span><span class="p">,</span>
-  <span class="na">pages</span> <span class="p">=</span> <span class="s">{1671--1684}</span><span class="p">,</span>
-  <span class="na">year</span> <span class="p">=</span> <span class="s">{2022}</span><span class="p">,</span>
-  <span class="na">publisher</span> <span class="p">=</span> <span class="s">{Optica Publishing Group}</span><span class="p">,</span>
-  <span class="na">doi</span> <span class="p">=</span> <span class="s">{10.1364/BOE.450838}</span>
-<span class="p">}</span></code></pre></figure>
-      </div>
-    
-
-    
+    <div class="bibtex hidden">
+      <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex">@article{yang2024imaging3d,
+  title = {Imaging 3D Chemistry at 1 nm Resolution with Fused Multi-Modal Electron Tomography},
+  author = {Schwartz, Jonathan and Di, Zichao Wendy and Jiang, Yi and Manassa, Jason and Pietryga, Jacob and Qian, Yiwen and Cho, Min Gee and Rowell, Jonathan L. and Zheng, Huihuo and Robinson, Richard D. and Gu, Junsi and Kirilin, Alexey and Rozeveld, Steve and Ercius, Peter and Fessler, Jeffrey A. and Scott, Mary and Hovden, Robert},
+  journal = {Nature Communications},
+  volume = {15},
+  pages = {47558},
+  year = {2024},
+  doi = {10.1038/s41467-024-47558-0},
+}</code></pre></figure>
+    </div>
   </div>
 </div>
 </li>
 <li>
 <div class="row">
-  
-    <div class="col col-sm-2 abbr">
-          <abbr class="badge rounded w-100" style="background-color:#009f36">
-            
-              <div>Parsing Dynamics</div>
-            
-          </abbr>
-        
-      
-      
-        
-          
-          
+  <div class="col col-sm-2 abbr">
+    <abbr class="badge rounded w-100" style="background-color:#00B4D8">
+      <div>Inverse Problems</div>
+    </abbr>
 
-<figure>
-  <picture>
-    <!-- Auto scaling with imagemagick -->
-    <!--
-      See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
-      https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
-    -->
-    
-      <source class="responsive-img-srcset" srcset="/assets/img/publication_preview/iccp_2022-480.webp 480w,/assets/img/publication_preview/iccp_2022-800.webp 800w,/assets/img/publication_preview/iccp_2022-1400.webp 1400w," sizes="200px" type="image/webp">
-    
-    <img src="/assets/img/publication_preview/iccp_2022.gif" class="preview z-depth-1 rounded" width="100%" height="auto" alt="iccp_2022.gif" data-zoomable loading="eager" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
-  </source></picture>
+    <figure>
+      <picture>
+        <img src="/assets/img/publications/thumbs/real_time_tomo.png" class="preview z-depth-1 rounded" width="100%" height="auto" alt="real_time_tomo.png" data-zoom-src="/assets/img/publications/real_time_tomo.png" data-zoomable loading="eager">
+      </picture>
+    </figure>
+  </div>
 
-  
-</figure>
-
-        
-      
-    </div>
-  
-
-  <!-- Entry bib key -->
-  <div id="cao2022dynamic" class="col-sm-8">
-    <!-- Title -->
-    <div class="title">Dynamic Structured Illumination Microscopy with a Neural Space-time Model</div>
-    <!-- Author -->
+  <div id="schwartz2022real" class="col-sm-8">
+    <div class="title">Real-time 3D Analysis During Electron Tomography Using tomviz</div>
     <div class="author">
-      
-
-      
-      <em>Ruiming
-            Cao</em>, Fanglin Linda
-            Liu, Li-Hao
-            Yeh, and
-        <span class="more-authors" title="click to view 1 more author" onclick="
-              var element = $(this);
-              element.attr('title', '');
-              var more_authors_text = element.text() == '1 more author' ? 'Laura Waller' : '1 more author';
-              var cursorPosition = 0;
-              var textAdder = setInterval(function(){
-                element.html(more_authors_text.substring(0, cursorPosition + 1));
-                if (++cursorPosition == more_authors_text.length){
-                  clearInterval(textAdder);
-                }
-            }, '10');
-          ">1 more author</span>
-      
-      
-    </div>
-
-    <!-- Journal/Book title and date -->
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    <div class="periodical">
-      <em>In IEEE International Conference on Computational Photography (ICCP)</em>,  2022
+      <em>Jonathan Schwartz</em>, Chris Harris, Jacob Pietryga, and
+      <span class="more-authors" title="click to view 14 more authors" onclick="
+            var element = $(this);
+            element.attr('title', '');
+            var more_authors_text = element.text() == '14 more authors' ? 'Huihuo Zheng, Prashant Kumar, Anastasiia Visheratina, Nicholas A. Kotov, Brianna Major, Patrick Avery, Peter Ercius, Utkarsh Ayachit, Berk Geveci, David A. Muller, Alessandro Genova, Yi Jiang, Marcus Hanwell, Robert Hovden' : '14 more authors';
+            var cursorPosition = 0;
+            var textAdder = setInterval(function(){
+              element.html(more_authors_text.substring(0, cursorPosition + 1));
+              if (++cursorPosition == more_authors_text.length){
+                clearInterval(textAdder);
+              }
+          }, '10');
+        ">14 more authors</span>
     </div>
     <div class="periodical">
-      
+      <em>Nature Communications</em>, 2022
     </div>
-
-    <!-- Links/Buttons -->
+    <div class="periodical"></div>
     <div class="links">
-      
-      
-        <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
-      
-      
-      
-        <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
-      
-      
-      
-        
-          <a href="https://arxiv.org/pdf/2206.01397" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">PDF</a>
-        
-      
-      
-      
-        <a href="https://www.youtube.com/watch?v=vCWv37kS8-Q&amp;t=2481s" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">Video</a>
-      
-      
-      
-        <a href="https://github.com/Waller-Lab/SpeckleFlowSIM" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">Code</a>
-      
-      
-      
-      
+      <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+      <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+      <a href="https://doi.org/10.1038/s41467-022-32046-0" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">PDF</a>
+      <a href="https://github.com/OpenChemistry/tomviz" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">Code</a>
     </div>
-    
-      
-      
+    <div class="badges">
+      <span class="altmetric-embed" data-badge-type="2" data-badge-popover="right" data-doi="10.1038/s41467-022-32046-0"></span>
+    </div>
+    <!-- Hidden abstract block -->
+    <div class="abstract hidden">
+      <p>The demand for high-throughput electron tomography is rapidly increasing in biological and material sciences. However, this 3D imaging technique is computationally bottlenecked by alignment and reconstruction which runs from hours to days. We demonstrate real-time tomography with dynamic 3D tomographic visualization to enable rapid interpretation of specimen structure immediately as data is collected on an electron microscope. Using geometrically complex chiral nanoparticles, we show volumetric interpretation can begin in less than 10 minutes and a high-quality tomogram is available within 30 minutes. Real-time tomography is integrated into tomviz, an open-source and cross-platform 3D data analysis tool that contains intuitive graphical user interfaces (GUI), to enable any scientist to characterize biological and material structure in 3D.</p>
+    </div>
 
-      
-      
-
-      
-      
-      
-    
-
-    
-
-    
-      <!-- Hidden abstract block -->
-      <div class="abstract hidden">
-        <p>Structured illumination microscopy (SIM) reconstructs a super-resolved image from multiple raw images captured with different illumination patterns; hence, acquisition speed is limited, making it unsuitable for dynamic scenes. We propose a new method, Speckle Flow SIM, that uses static patterned illumination with moving samples and models the sample motion during data capture in order to reconstruct the dynamic scene with super-resolution. Speckle Flow SIM relies on sample motion to capture a sequence of raw images. The spatio-temporal relationship of the dynamic scene is modeled using a neural space-time model with coordinate-based multi-layer perceptrons (MLPs), and the motion dynamics and the super-resolved scene are jointly recovered. We validate Speckle Flow SIM for coherent imaging in simulation and build a simple, inexpensive experimental setup with off-the-shelf components. We demonstrate that Speckle Flow SIM can reconstruct a dynamic scene with deformable motion and 1.88x the diffraction-limited resolution in experiment.</p>
-      </div>
-    
-
-    
-      <!-- Hidden bibtex block -->
-      <div class="bibtex hidden">
-        <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@inproceedings</span><span class="p">{</span><span class="nl">cao2022dynamic</span><span class="p">,</span>
-  <span class="na">title</span> <span class="p">=</span> <span class="s">{Dynamic Structured Illumination Microscopy with a Neural Space-time Model}</span><span class="p">,</span>
-  <span class="na">author</span> <span class="p">=</span> <span class="s">{Cao, Ruiming and Liu, Fanglin Linda and Yeh, Li-Hao and Waller, Laura}</span><span class="p">,</span>
-  <span class="na">booktitle</span> <span class="p">=</span> <span class="s">{IEEE International Conference on Computational Photography (ICCP)}</span><span class="p">,</span>
-  <span class="na">year</span> <span class="p">=</span> <span class="s">{2022}</span><span class="p">,</span>
-  <span class="na">organization</span> <span class="p">=</span> <span class="s">{IEEE}</span><span class="p">,</span>
-  <span class="na">doi</span> <span class="p">=</span> <span class="s">{10.1109/ICCP54855.2022.9887701}</span>
-<span class="p">}</span></code></pre></figure>
-      </div>
-    
-
-    
+    <div class="bibtex hidden">
+      <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex">@article{schwartz2022real,
+  title = {Real-time 3D Analysis During Electron Tomography Using tomviz},
+  author = {Schwartz, Jonathan and Harris, Chris and Pietryga, Jacob and Zheng, Huihuo and Kumar, Prashant and Visheratina, Anastasiia and Kotov, Nicholas A. and Major, Brianna and Avery, Patrick and Ercius, Peter and Ayachit, Utkarsh and Geveci, Berk and Muller, David A. and Genova, Alessandro and Jiang, Yi and Hanwell, Marcus and Hovden, Robert},
+  journal = {Nature Communications},
+  volume = {13},
+  number = {1},
+  pages = {4458},
+  year = {2022},
+  doi = {10.1038/s41467-022-32046-0},
+}</code></pre></figure>
+    </div>
   </div>
 </div>
 </li>
 <li>
 <div class="row">
-  
-    <div class="col col-sm-2 abbr">
-          <abbr class="badge rounded w-100" style="background-color:#009f36">
-            
-              <div>Parsing Dynamics</div>
-            
-          </abbr>
-        
-      
-      
-        
-          
-          
+  <div class="col col-sm-2 abbr">
+    <abbr class="badge rounded w-100" style="background-color:#F77F00">
+      <div>Inverse Problems</div>
+    </abbr>
 
-<figure>
-  <picture>
-    <!-- Auto scaling with imagemagick -->
-    <!--
-      See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
-      https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
-    -->
-    
-      <source class="responsive-img-srcset" srcset="/assets/img/publication_preview/SIM-mito-480.webp 480w,/assets/img/publication_preview/SIM-mito-800.webp 800w,/assets/img/publication_preview/SIM-mito-1400.webp 1400w," sizes="200px" type="image/webp">
-    
-    <img src="/assets/img/publication_preview/SIM-mito.gif" class="preview z-depth-1 rounded" width="100%" height="auto" alt="SIM-mito.gif" data-zoomable loading="eager" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
-  </source></picture>
+    <figure>
+      <picture>
+        <img src="/assets/img/publications/thumbs/multimodal_eels.png" class="preview z-depth-1 rounded" width="100%" height="auto" alt="multimodal_eels.png" data-zoom-src="/assets/img/publications/multimodal_eels.png" data-zoomable loading="eager">
+      </picture>
+    </figure>
+  </div>
 
-  
-</figure>
-
-        
-      
-    </div>
-  
-
-  <!-- Entry bib key -->
-  <div id="cao2024neural" class="col-sm-8">
-    <!-- Title -->
-    <div class="title">Neural space–time model for dynamic multi-shot imaging</div>
-    <!-- Author -->
+  <div id="mi2022imaging" class="col-sm-8">
+    <div class="title">Imaging Atomic-Scale Chemistry from Fused Multi-Modal Electron Microscopy</div>
     <div class="author">
-      
-
-      
-      <em>Ruiming
-            Cao</em>, Nikita S
-            Divekar, James K
-            Nuñez, and
-        <span class="more-authors" title="click to view 2 more authors" onclick="
-              var element = $(this);
-              element.attr('title', '');
-              var more_authors_text = element.text() == '2 more authors' ? 'Srigokul Upadhyayula, Laura Waller' : '2 more authors';
-              var cursorPosition = 0;
-              var textAdder = setInterval(function(){
-                element.html(more_authors_text.substring(0, cursorPosition + 1));
-                if (++cursorPosition == more_authors_text.length){
-                  clearInterval(textAdder);
-                }
-            }, '10');
-          ">2 more authors</span>
-      
-      
-    </div>
-
-    <!-- Journal/Book title and date -->
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    <div class="periodical">
-      <em>Nature Methods</em>,  2024
+      <em>Jonathan Schwartz</em>, Zichao Wendy Di, Yi Jiang, and
+      <span class="more-authors" title="click to view 9 more authors" onclick="
+            var element = $(this);
+            element.attr('title', '');
+            var more_authors_text = element.text() == '9 more authors' ? 'Alyssa J. Fielitz, Don-Hyung Ha, Sanjaya D. Perera, Ismail El Baggari, Richard D. Robinson, Jeffrey A. Fessler, Colin Ophus, Steve Rozeveld, Robert Hovden' : '9 more authors';
+            var cursorPosition = 0;
+            var textAdder = setInterval(function(){
+              element.html(more_authors_text.substring(0, cursorPosition + 1));
+              if (++cursorPosition == more_authors_text.length){
+                clearInterval(textAdder);
+              }
+          }, '10');
+        ">9 more authors</span>
     </div>
     <div class="periodical">
-      
+      <em>npj Computational Materials</em>, 2022
     </div>
-
-    <!-- Links/Buttons -->
+    <div class="periodical"></div>
     <div class="links">
-      
-      
-        <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
-      
-      
-      
-        <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
-      
-      
-      
-        
-          <a href="https://www.nature.com/articles/s41592-024-02417-0" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">PDF</a>
-        
-      
-      
-      
-      
-        <a href="https://engineering.berkeley.edu/news/2024/09/bringing-clarity-to-computational-imaging/" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">Blog</a>
-      
-      
-        <a href="https://github.com/rmcao/nstm" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">Code</a>
-      
-      
-      
-      
-        <a href="https://nstm.readthedocs.io/en/latest/" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">Website</a>
-      
+      <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+      <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+      <a href="https://doi.org/10.1038/s41524-021-00692-5" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">PDF</a>
+      <a href="https://github.com/jtschwar/Multi-Modal-2D-Data-Fusion" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">Code</a>
     </div>
-    
-      
-      
+    <div class="badges">
+      <span class="altmetric-embed" data-badge-type="2" data-badge-popover="right" data-doi="10.1038/s41524-021-00692-5"></span>
+    </div>
+    <!-- Hidden abstract block -->
+    <div class="abstract hidden">
+      <p>Efforts to map atomic-scale chemistry at low doses with minimal noise using electron microscopes are fundamentally limited by inelastic interactions. Here, fused multi-modal electron microscopy offers high signal-to-noise ratio (SNR) recovery of material chemistry at nano- and atomic-resolution by coupling correlated information encoded within both elastic scattering (high-angle annular dark-field (HAADF)) and inelastic spectroscopic signals (electron energy loss (EELS) or energy-dispersive x-ray (EDX)). By linking these simultaneously acquired signals, or modalities, the chemical distribution within nanomaterials can be imaged at significantly lower doses with existing detector hardware. In many cases, the dose requirements can be reduced by over one order of magnitude. This high SNR recovery of chemistry is tested against simulated and experimental atomic resolution data of heterogeneous nanomaterials.</p>
+    </div>
 
-      
-      
-
-      
-      
-      
-        <div class="badges">
-          
-            <span class="altmetric-embed" data-badge-type="2" data-badge-popover="right" data-doi="10.1038/s41592-024-02417-0"></span>
-          
-          
-          
-        </div>
-      
-    
-
-    
-
-    
-      <!-- Hidden abstract block -->
-      <div class="abstract hidden">
-        <p>Computational imaging reconstructions from multiple measurements that are captured sequentially often suffer from motion artifacts if the scene is dynamic. We propose a neural space-time model (NSTM) that jointly estimates the scene and its motion dynamics. Hence, we can both remove motion artifacts and resolve sample dynamics. We demonstrate NSTM in three computational imaging systems: differential phase contrast microscopy, 3D structured illumination microscopy, and rolling-shutter DiffuserCam. We show that NSTM can recover subcellular motion dynamics and thus reduce the misinterpretation of living systems caused by motion artifacts.</p>
-      </div>
-    
-
-    
-      <!-- Hidden bibtex block -->
-      <div class="bibtex hidden">
-        <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">cao2024neural</span><span class="p">,</span>
-  <span class="na">title</span> <span class="p">=</span> <span class="s">{Neural space--time model for dynamic multi-shot imaging}</span><span class="p">,</span>
-  <span class="na">author</span> <span class="p">=</span> <span class="s">{Cao, Ruiming and Divekar, Nikita S and Nu{\~n}ez, James K and Upadhyayula, Srigokul and Waller, Laura}</span><span class="p">,</span>
-  <span class="na">journal</span> <span class="p">=</span> <span class="s">{Nature Methods}</span><span class="p">,</span>
-  <span class="na">volume</span> <span class="p">=</span> <span class="s">{21}</span><span class="p">,</span>
-  <span class="na">number</span> <span class="p">=</span> <span class="s">{12}</span><span class="p">,</span>
-  <span class="na">pages</span> <span class="p">=</span> <span class="s">{2336--2341}</span><span class="p">,</span>
-  <span class="na">year</span> <span class="p">=</span> <span class="s">{2024}</span><span class="p">,</span>
-  <span class="na">publisher</span> <span class="p">=</span> <span class="s">{Nature Publishing Group US New York}</span><span class="p">,</span>
-  <span class="na">doi</span> <span class="p">=</span> <span class="s">{10.1038/s41592-024-02417-0}</span><span class="p">,</span>
-<span class="p">}</span></code></pre></figure>
-      </div>
-    
-
-    
+    <div class="bibtex hidden">
+      <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex">@article{mi2022imaging,
+  title = {Imaging Atomic-Scale Chemistry from Fused Multi-Modal Electron Microscopy},
+  author = {Schwartz, Jonathan and Di, Zichao Wendy and Jiang, Yi and Fielitz, Alyssa J. and Ha, Don-Hyung and Perera, Sanjaya D. and El Baggari, Ismail and Robinson, Richard D. and Fessler, Jeffrey A. and Ophus, Colin and Rozeveld, Steve and Hovden, Robert},
+  journal = {npj Computational Materials},
+  volume = {8},
+  pages = {16},
+  year = {2022},
+  doi = {10.1038/s41524-021-00692-5},
+}</code></pre></figure>
+    </div>
   </div>
 </div>
 </li>
 <li>
 <div class="row">
-  
-    <div class="col col-sm-2 abbr">
-          <abbr class="badge rounded w-100" style="background-color:#FCC439">
-            
-              <div>Novel Signal</div>
-            
-          </abbr>
-        
-      
-      
-        
-          
-          
+  <div class="col col-sm-2 abbr">
+    <abbr class="badge rounded w-100" style="background-color:#00C9A7">
+      <div>Signal Proc.</div>
+    </abbr>
 
-<figure>
-  <picture>
-    <!-- Auto scaling with imagemagick -->
-    <!--
-      See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
-      https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
-    -->
-    
-      <source class="responsive-img-srcset" srcset="/assets/img/publication_preview/noise2image-480.webp 480w,/assets/img/publication_preview/noise2image-800.webp 800w,/assets/img/publication_preview/noise2image-1400.webp 1400w," sizes="200px" type="image/webp">
-    
-    <img src="/assets/img/publication_preview/noise2image.png" class="preview z-depth-1 rounded" width="100%" height="auto" alt="noise2image.png" data-zoomable loading="eager" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
-  </source></picture>
-
-  
-</figure>
-
-        
-      
-    </div>
-  
-
-  <!-- Entry bib key -->
-  <div id="cao2025noise2image" class="col-sm-8">
-    <!-- Title -->
-    <div class="title">Noise2Image: Noise-Enabled Static Scene Recovery for Event Cameras</div>
-    <!-- Author -->
-    <div class="author">
-      
-
-      
-      <em>Ruiming
-            Cao<sup>*</sup></em>, <a href="https://www.dekelgalor.com/" rel="external nofollow noopener" target="_blank">Dekel
-              Galor<sup>*</sup></a>, Amit
-            Kohli, and
-        <span class="more-authors" title="click to view 2 more authors" onclick="
-              var element = $(this);
-              element.attr('title', '');
-              var more_authors_text = element.text() == '2 more authors' ? 'Jacob L Yates, Laura Waller' : '2 more authors';
-              var cursorPosition = 0;
-              var textAdder = setInterval(function(){
-                element.html(more_authors_text.substring(0, cursorPosition + 1));
-                if (++cursorPosition == more_authors_text.length){
-                  clearInterval(textAdder);
-                }
-            }, '10');
-          ">2 more authors</span>
-      
-      
-        <i class="fa-solid fa-circle-info ml-1" data-toggle="popover" data-placement="top" data-html="true" data-content="* co-first author">
-        </i>
-      
-    </div>
-
-    <!-- Journal/Book title and date -->
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    <div class="periodical">
-      <em>Optica</em>,  2025
-    </div>
-    <div class="periodical">
-      
-    </div>
-
-    <!-- Links/Buttons -->
-    <div class="links">
-      
-      
-        <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
-      
-      
-      
-        <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
-      
-      
-      
-        
-          <a href="https://opg.optica.org/abstract.cfm?uri=optica-12-1-46" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">PDF</a>
-        
-      
-      
-      
-      
-      
-        <a href="https://github.com/rmcao/noise2image" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">Code</a>
-      
-      
-      
-      
-        <a href="https://www.kaggle.com/datasets/ruimingc/noise2image-for-event-cameras" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">Website</a>
-      
-    </div>
-    
-      
-      
-
-      
-      
-
-      
-      
-      
-    
-
-    
-
-    
-      <!-- Hidden abstract block -->
-      <div class="abstract hidden">
-        <p>Event cameras capture changes of intensity over time as a stream of ’events’ and generally cannot measure intensity itself; hence, they are only used for imaging dynamic scenes. However, fluctuations due to random photon arrival inevitably trigger noise events, even for static scenes. While previous efforts have been focused on filtering out these undesirable noise events to improve signal quality, we find that, in the photon-noise regime, these noise events are correlated with the static scene intensity. We analyze the noise event generation and model its relationship to illuminance. Based on this understanding, we propose a method, called Noise2Image, to leverage the illuminance-dependent noise characteristics to recover the static parts of a scene, which are otherwise invisible to event cameras. We experimentally collect a dataset of noise events on static scenes to train and validate Noise2Image. Our results show that Noise2Image can robustly recover intensity images solely from noise events, providing a novel approach for capturing static scenes in event cameras, without additional hardware.</p>
-      </div>
-    
-
-    
-      <!-- Hidden bibtex block -->
-      <div class="bibtex hidden">
-        <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">cao2025noise2image</span><span class="p">,</span>
-  <span class="na">title</span> <span class="p">=</span> <span class="s">{Noise2Image: Noise-Enabled Static Scene Recovery for Event Cameras}</span><span class="p">,</span>
-  <span class="na">author</span> <span class="p">=</span> <span class="s">{Cao, Ruiming and Galor, Dekel and Kohli, Amit and Yates, Jacob L and Waller, Laura}</span><span class="p">,</span>
-  <span class="na">journal</span> <span class="p">=</span> <span class="s">{Optica}</span><span class="p">,</span>
-  <span class="na">year</span> <span class="p">=</span> <span class="s">{2025}</span><span class="p">,</span>
-  <span class="na">number</span> <span class="p">=</span> <span class="s">{1}</span><span class="p">,</span>
-  <span class="na">pages</span> <span class="p">=</span> <span class="s">{46--55}</span><span class="p">,</span>
-  <span class="na">publisher</span> <span class="p">=</span> <span class="s">{Optica Publishing Group}</span><span class="p">,</span>
-  <span class="na">volume</span> <span class="p">=</span> <span class="s">{12}</span><span class="p">,</span>
-<span class="p">}</span></code></pre></figure>
-      </div>
-    
-
-    
+    <figure>
+      <picture>
+        <img src="/assets/img/publications/thumbs/Removing_Stripe_Artifacts.jpg" class="preview z-depth-1 rounded" width="100%" height="auto" alt="Removing_Stripe_Artifacts.jpg" data-zoom-src="/assets/img/publications/Removing_Stripe_Artifacts.jpg" data-zoomable loading="eager">
+      </picture>
+    </figure>
   </div>
-</div>
-</li>
-<li>
-<div class="row">
-  
-    <div class="col col-sm-2 abbr">
-          <abbr class="badge rounded w-100" style="background-color:#FCC439">
-            
-              <div>Novel Signal</div>
-            
-          </abbr>
-        
-      
-      
-        
-          
-          
 
-<figure>
-  <picture>
-    <!-- Auto scaling with imagemagick -->
-    <!--
-      See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
-      https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
-    -->
-    
-      <source class="responsive-img-srcset" srcset="/assets/img/publication_preview/speckleflowfluo-480.webp 480w,/assets/img/publication_preview/speckleflowfluo-800.webp 800w,/assets/img/publication_preview/speckleflowfluo-1400.webp 1400w," sizes="200px" type="image/webp">
-    
-    <img src="/assets/img/publication_preview/speckleflowfluo.gif" class="preview z-depth-1 rounded" width="100%" height="auto" alt="speckleflowfluo.gif" data-zoomable loading="eager" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
-  </source></picture>
-
-  
-</figure>
-
-        
-      
-    </div>
-  
-
-  <!-- Entry bib key -->
-  <div id="cao2025sample" class="col-sm-8">
-    <!-- Title -->
-    <div class="title">Sample Motion for Structured Illumination Fluorescence Microscopy</div>
-    <!-- Author -->
+  <div id="osti_1572085" class="col-sm-8">
+    <div class="title">Removing Stripes, Scratches, and Curtaining with Nonrecoverable Compressed Sensing</div>
     <div class="author">
-      
-
-      
-      <em>Ruiming
-            Cao</em>, <a href="https://guanghanmeng.com" rel="external nofollow noopener" target="_blank">Guanghan
-              Meng</a>, and <a href="https://en.wikipedia.org/wiki/Laura_Waller" rel="external nofollow noopener" target="_blank">Laura
-              Waller</a>
-      
-    </div>
-
-    <!-- Journal/Book title and date -->
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    <div class="periodical">
-      <em>arXiv preprint arXiv:2502.03667</em>,  2025
+      <em>Jonathan Schwartz</em>, Yi Jiang, Yongjie Wang, and
+      <span class="more-authors" title="click to view 6 more authors" onclick="
+            var element = $(this);
+            element.attr('title', '');
+            var more_authors_text = element.text() == '6 more authors' ? 'Anthony Aiello, Pallab Bhattacharya, Hui Yuan, Zetian Mi, Nabil Bassim, Robert Hovden' : '6 more authors';
+            var cursorPosition = 0;
+            var textAdder = setInterval(function(){
+              element.html(more_authors_text.substring(0, cursorPosition + 1));
+              if (++cursorPosition == more_authors_text.length){
+                clearInterval(textAdder);
+              }
+          }, '10');
+        ">6 more authors</span>
     </div>
     <div class="periodical">
-      
+      <em>Microscopy and Microanalysis</em>, 2019
     </div>
-
-    <!-- Links/Buttons -->
+    <div class="periodical"></div>
     <div class="links">
-      
-      
-        <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
-      
-      
-      
-        <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
-      
-      
-      
-        
-          <a href="https://arxiv.org/pdf/2502.03667" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">PDF</a>
-        
-      
-      
-      
-      
-      
-        <a href="https://github.com/rmcao/SpeckleFlowSIM-fluo" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">Code</a>
-      
-      
-      
-      
+      <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+      <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+      <a href="https://doi.org/10.1017/S1431927619000254" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">PDF</a>
+      <a href="https://github.com/jtschwar/Removing-Stripe-Artifacts" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">Code</a>
     </div>
-    
-      
-      
+    <div class="badges">
+      <span class="altmetric-embed" data-badge-type="2" data-badge-popover="right" data-doi="10.1017/S1431927619000254"></span>
+    </div>
+    <!-- Hidden abstract block -->
+    <div class="abstract hidden">
+      <p>Highly-directional image artifacts such as ion mill curtaining, mechanical scratches, or image striping from beam instability degrade the interpretability of micrographs. These unwanted, aperiodic features extend the image along a primary direction and occupy a small wedge of information in Fourier space. Deleting this wedge of data replaces stripes, scratches, or curtaining, with more complex streaking and blurring artifacts—known within the tomography community as "missing wedge" artifacts. Here, we overcome this problem by recovering the missing region using total variation minimization, which leverages image sparsity-based reconstruction techniques—colloquially referred to as compressed sensing (CS)—to reliably restore images corrupted by stripe-like features. Our approach removes beam instability, ion mill curtaining, mechanical scratches, or any stripe features and remains robust at low signal-to-noise. The success of this approach is achieved by exploiting CS's inability to recover directional structures that are highly localized and missing in Fourier Space.</p>
+    </div>
 
-      
-      
-
-      
-      
-      
-    
-
-    
-
-    
-      <!-- Hidden abstract block -->
-      <div class="abstract hidden">
-        <p>Structured illumination microscopy (SIM) uses a set of images captured with different patterned illumination to computationally reconstruct resolution beyond the diffraction limit. Here, we propose an alternative approach using a static speckle illumination pattern and relying on inherent sample motion to encode the super-resolved information in multiple raw images, for the case of fluorescence microscopy. From a set of sequentially captured raw images, we jointly estimate the sample motion and the super-resolved image. We demonstrate the feasibility of the proposed method both in simulation and in experiment.</p>
-      </div>
-    
-
-    
-      <!-- Hidden bibtex block -->
-      <div class="bibtex hidden">
-        <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">cao2025sample</span><span class="p">,</span>
-  <span class="na">title</span> <span class="p">=</span> <span class="s">{Sample Motion for Structured Illumination Fluorescence Microscopy}</span><span class="p">,</span>
-  <span class="na">author</span> <span class="p">=</span> <span class="s">{Cao, Ruiming and Meng, Guanghan and Waller, Laura}</span><span class="p">,</span>
-  <span class="na">journal</span> <span class="p">=</span> <span class="s">{arXiv preprint arXiv:2502.03667}</span><span class="p">,</span>
-  <span class="na">year</span> <span class="p">=</span> <span class="s">{2025}</span><span class="p">,</span>
-<span class="p">}</span></code></pre></figure>
-      </div>
-    
-
-    
+    <div class="bibtex hidden">
+      <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex">@article{osti_1572085,
+  title = {Removing Stripes, Scratches, and Curtaining with Nonrecoverable Compressed Sensing},
+  author = {Schwartz, Jonathan and Jiang, Yi and Wang, Yongjie and Aiello, Anthony and Bhattacharya, Pallab and Yuan, Hui and Mi, Zetian and Bassim, Nabil and Hovden, Robert},
+  journal = {Microscopy and Microanalysis},
+  volume = {25},
+  number = {3},
+  pages = {705--710},
+  year = {2019},
+  doi = {10.1017/S1431927619000254},
+}</code></pre></figure>
+    </div>
   </div>
 </div>
 </li>
 </ol>
 </div>
 
+
     
 
-    <!-- Social -->
-    
-      <div class="social">
-        <div class="contact-icons">
-  <a href="mailto:%72%63%61%6F%20[%61%74]%20%62%65%72%6B%65%6C%65%79%20[%64%6F%74]%20%65%64%75" title="email"><i class="fa-solid fa-envelope"></i></a>
-
-
-
-
-
-  <a href="https://scholar.google.com/citations?user=Rt_O1_MAAAAJ" title="Google Scholar" rel="external nofollow noopener" target="_blank"><i class="ai ai-google-scholar"></i></a>
-
-
-
-
-
-
-
-
-
-
-  <a href="https://github.com/rmcao" title="GitHub" rel="external nofollow noopener" target="_blank"><i class="fa-brands fa-github"></i></a>
-
-
-
-  <a href="https://twitter.com/rmcao_" title="X" rel="external nofollow noopener" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-</div>
-
-        <div class="contact-note"></div>
-      </div>
-    
 
     
   </article>
@@ -1265,9 +615,9 @@ I work on inverse problem optimization algorithms that parse spatiotemporal corr
   <footer class="fixed-bottom" role="contentinfo">
     <div class="container mt-0">
       © Copyright 2025
-      Ruiming
+      Jonathan
       
-      Cao. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" rel="external nofollow noopener" target="_blank">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank" rel="external nofollow noopener">GitHub Pages</a>.
+      Schwartz. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" rel="external nofollow noopener" target="_blank">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank" rel="external nofollow noopener">GitHub Pages</a>.
 
       
       
@@ -1508,13 +858,6 @@ I work on inverse problem optimization algorithms that parse spatiotemporal corr
               handler: () => {
                 window.location.href = "/repositories/";
               },
-            },{id: "nav-teaching",
-              title: "teaching",
-              description: "",
-              section: "Navigation",
-              handler: () => {
-                window.location.href = "/teaching/";
-              },
             },{
             id: 'socials-email',
             title: 'Send email',
@@ -1527,14 +870,14 @@ I work on inverse problem optimization algorithms that parse spatiotemporal corr
             title: 'Google Scholar',
             section: 'Socials',
             handler: () => {
-              window.open("https://scholar.google.com/citations?user=Rt_O1_MAAAAJ", "_blank");
+              window.open("https://scholar.google.com/citations?user=O2bJ1RwAAAAJ&hl=en", "_blank");
             },
           },{
             id: 'socials-github',
             title: 'GitHub',
             section: 'Socials',
             handler: () => {
-              window.open("https://github.com/rmcao", "_blank");
+              window.open("https://github.com/jtschwar", "_blank");
             },
           },{
             id: 'socials-x',
@@ -1542,7 +885,7 @@ I work on inverse problem optimization algorithms that parse spatiotemporal corr
             description: 'Twitter',
             section: 'Socials',
             handler: () => {
-              window.open("https://twitter.com/rmcao_", "_blank");
+              window.open("https://www.linkedin.com/in/jtschwar/", "_blank");
             },
           },{
           id: 'light-theme',
