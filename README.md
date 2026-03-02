@@ -2,7 +2,7 @@
 
 Personal academic website for Jonathan Schwartz, Sr. AI/ML Research Scientist at CZ Biohub.
 
-Live at: [jtschwar.net](https://jtschwar.net)
+Live at: [jtschwar.github.io](https://jtschwar.github.io)
 
 ## Built with
 
