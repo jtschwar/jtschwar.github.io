@@ -1,6 +1,6 @@
 # jtschwar.github.io
 
-Personal academic website for Jonathan Schwartz, Sr. AI/ML Research Scientist at CZ Biohub.
+Personal academic website.
 
 Live at: [jtschwar.github.io](https://jtschwar.github.io)
 
