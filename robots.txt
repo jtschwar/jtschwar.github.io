@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://rmcao.net//sitemap.xml
+Sitemap: https://jtschwar.github.io/sitemap.xml
