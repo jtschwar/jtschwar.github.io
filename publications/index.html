@@ -216,6 +216,76 @@
 <li>
 <div class="row">
   <div class="col col-sm-2 abbr">
+    <abbr class="badge rounded w-100" style="background-color:#00C9A7">
+      <div>Deep Learning</div>
+    </abbr>
+    <figure>
+      <picture>
+        <source class="responsive-img-srcset" srcset="/assets/img/publications/SABER-480.webp 480w,/assets/img/publications/SABER-800.webp 800w,/assets/img/publications/SABER-1400.webp 1400w," sizes="(min-width: 576px) 16vw, 95vw" type="image/webp">
+        <img src="/assets/img/publications/thumbs/SABER.jpg" class="preview z-depth-1 rounded" width="100%" height="auto" alt="SABER.jpg" data-zoom-src="/assets/img/publications/SABER.jpg" data-zoomable loading="eager">
+      </picture>
+    </figure>
+
+  </div>
+
+  <!-- Entry bib key -->
+  <div id="schwartz2026saber" class="col-sm-8">
+    <!-- Title -->
+    <div class="title">Large-scale CryoET segmentation from minimal expert annotations with foundation video models</div>
+    <!-- Author -->
+    <div class="author">
+      <em>Jonathan Schwartz</em>, Utz Ermel, Saugat Kandel, and
+      <span class="more-authors" title="click to view 10 more authors" onclick="
+            var element = $(this);
+            element.attr('title', '');
+            var more_authors_text = element.text() == '10 more authors' ? 'Hannah Siems, Rahel Woldeyes, Julia Peukes, Ruiming Cao, Jose Miguel Andrade Lopez, Casper C. Hoogenraad, Shu-Hsien Sheu, Shawn Zheng, Daniel Serwas, Dari Kimanius' : '10 more authors';
+            var cursorPosition = 0;
+            var textAdder = setInterval(function(){
+              element.html(more_authors_text.substring(0, cursorPosition + 1));
+              if (++cursorPosition == more_authors_text.length){
+                clearInterval(textAdder);
+              }
+          }, '10');
+        ">10 more authors</span>
+    </div>
+
+    <!-- Journal/Book title and date -->
+    <div class="periodical">
+      <em>Patterns</em>, 2026
+    </div>
+    <div class="periodical"></div>
+
+    <!-- Links/Buttons -->
+    <div class="links">
+      <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+      <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+      <a href="https://doi.org/10.1016/j.patter.2026.101688" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">PDF</a>
+      <a href="https://github.com/chanzuckerberg/saber" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">Code</a>
+    </div>
+
+    <!-- Hidden bibtex block -->
+    <!-- Hidden abstract block -->
+    <div class="abstract hidden">
+      <p>Cryo-electron tomography (CryoET) provides molecular-resolution 3D views of intact cells, but quantitative analysis at scale is limited by the time required for dense 3D annotation. Although large and diverse training datasets could eventually enable broadly generalizable segmentation models, such resources do not yet exist for the full diversity of subcellular morphology and context observed in CryoET. We introduce SABER, a segmentation framework designed to maximize the value of scarce expert annotations by replacing the need for dense volumetric supervision with sparse 2D annotations. On two CryoET datasets with ground truth, SABER matches a fully supervised baseline while reducing annotation time by up to an order of magnitude. We further demonstrate its applicability to light microscopy and volumetric electron microscopy data. By substantially lowering the burden of 3D annotation without sacrificing accuracy, SABER enables scalable generation of biologically meaningful segmentations for downstream analysis of large CryoET datasets.</p>
+    </div>
+
+    <div class="bibtex hidden">
+      <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex">@article{schwartz2026saber,
+  author = {Schwartz, Jonathan and Ermel, Utz and Kandel, Saugat and Siems, Hannah and Woldeyes, Rahel and Peukes, Julia and Cao, Ruiming and Andrade Lopez, Jose Miguel and Hoogenraad, Casper C. and Sheu, Shu-Hsien and Zheng, Shawn and Serwas, Daniel and Kimanius, Dari},
+  title = {Large-scale CryoET segmentation from minimal expert annotations with foundation video models},
+  journal = {Patterns},
+  pages = {101688},
+  year = {2026},
+  month = {October},
+  doi = {10.1016/j.patter.2026.101688},
+}</code></pre></figure>
+    </div>
+  </div>
+</div>
+</li>
+<li>
+<div class="row">
+  <div class="col col-sm-2 abbr">
     <abbr class="badge rounded w-100" style="background-color:#E63946">
       <div>Machine Learning</div>
     </abbr>
